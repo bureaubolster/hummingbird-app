@@ -5,13 +5,13 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "@wingscms/hummingbird": "^0.29.0",
-    "dotenv": "^7.0.0",
-    "gatsby": "^2.3.16",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "@wingscms/hummingbird": "0.29.0",
+    "dotenv": "7.0.0",
+    "gatsby": "2.4.3",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
   },
   "devDependencies": {
-    "core-js": "^2.6.5"
+    "core-js": "2.6.5"
   }
 }
