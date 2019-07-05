@@ -1,5 +1,9 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "packageRules": [{
+    "packageNames": ["@wingscms/hummingbird"],
+    "automerge": true
+  }]
 }
