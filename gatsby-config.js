@@ -6,6 +6,8 @@ const {
   getFooterConfig
 } = require('./node/utils');
 
+const typographyConfig = getTypographyConfig();
+
 module.exports = {
   siteMetadata: {
     siteTitle: '',
@@ -26,10 +28,14 @@ module.exports = {
         basicAuth: process.env.BASIC_AUTH,
         campaigns: {},
         design: {
+          headerFontFamily:
+            typographyConfig && typographyConfig.headerFontFamily
+              ? typographyConfig.headerFontFamily.join(', ')
+              : undefined,
           ...getDesign()
         },
         typography: {
-          ...getTypographyConfig()
+          ...typographyConfig
         },
         footer: {
           title: '',
