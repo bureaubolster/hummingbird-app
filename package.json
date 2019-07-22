@@ -5,7 +5,7 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "@wingscms/hummingbird": "0.30.7",
+    "@wingscms/hummingbird": "0.30.9",
     "dotenv": "7.0.0",
     "gatsby": "2.4.3",
     "react": "16.8.6",
