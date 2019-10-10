@@ -4,6 +4,6 @@
   ],
   "packageRules": [{
     "packageNames": ["@wingscms/hummingbird"],
-    "automerge": true
+    "automerge": false
   }]
 }
