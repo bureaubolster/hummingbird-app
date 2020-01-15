@@ -8,6 +8,7 @@
     "@wingscms/hummingbird": "0.44.2",
     "dotenv": "8.2.0",
     "gatsby": "2.18.3",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "react": "16.12.0",
     "react-dom": "16.12.0"
   },

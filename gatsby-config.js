@@ -8,6 +8,8 @@ const {
 
 const typographyConfig = getTypographyConfig();
 
+const webfontConfig = process.env.process.env.GATSBY_WEBFONT_CONFIG;
+
 module.exports = {
   siteMetadata: {
     siteTitle: '',
@@ -46,5 +48,15 @@ module.exports = {
         }
       }
     }
-  ]
+  ],
+  plugins: [
+    ...(webfontConfig
+      ? [
+        {
+          resolve: 'gatsby-plugin-web-font-loader',
+          options: JSON.parse(webfontConfig),
+        },
+      ]
+      : []),
+  ],
 };
