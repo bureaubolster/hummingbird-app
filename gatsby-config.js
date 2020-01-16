@@ -8,7 +8,7 @@ const {
 
 const typographyConfig = getTypographyConfig();
 
-const webfontConfig = process.env.process.env.GATSBY_WEBFONT_CONFIG;
+const webfontConfig = process.env.GATSBY_WEBFONT_CONFIG;
 
 module.exports = {
   siteMetadata: {
