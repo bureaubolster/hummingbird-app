@@ -5,7 +5,7 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "@wingscms/hummingbird": "0.44.2",
+    "@wingscms/hummingbird": "0.46.0",
     "dotenv": "8.2.0",
     "gatsby": "2.18.3",
     "gatsby-plugin-web-font-loader": "1.0.4",
